@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletônica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>URNA ELETRÔNICA DIGITAL 2022</h1>
+        
+    </header>
+    <main>
+        <div id="principal">
+            <div id="resultado">
+                <input type="number" id="num1" class="number" value="">
+                <input type="number" id="num2" class="number" value="">
+                <h2 id="nome"></h2>
+            </div>
+            <div id="teclado">
+                <input type="button" id="n1" class="num" value="1" onclick="num(1)">
+                <input type="button" id="n2" class="num" value="2" onclick="num(2)">
+                <input type="button" id="n3" class="num" value="3" onclick="num(3)"> <br>
+                <input type="button" id="n4" class="num" value="4" onclick="num(4)">
+                <input type="button" id="n5" class="num" value="5" onclick="num(5)">
+                <input type="button" id="n6" class="num" value="6" onclick="num(6)"> <br>
+                <input type="button" id="n7" class="num" value="7" onclick="num(7)">
+                <input type="button" id="n8" class="num" value="8" onclick="num(8)">
+                <input type="button" id="n9" class="num" value="9" onclick="num(9)"> <br>
+                <input type="button" id="n0" class="num" value="0" onclick="num(0)"> <br>
+                <input type="button" id="branco" class="string" value="BRANCO" style="background-color: white;" onclick="white()">
+                <input type="button" id="corrigir" class="string" value="CORRIGIR" style="background-color: rgb(255, 60, 0);" onclick="red()">
+                <input type="button" id="votar" class="string" value="CONFIRMAR" style="background-color: rgb(7, 194, 7);" onclick="green()">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p >OtavioFerreira&copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
