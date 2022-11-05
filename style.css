@@ -127,6 +127,9 @@ footer > p {
         width: 400px;
         margin: auto;
     }
+    main{
+        width: 400px;
+    }
   
     #resultado{
         margin-top: 30px;
