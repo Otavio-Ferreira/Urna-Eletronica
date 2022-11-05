@@ -124,30 +124,28 @@ footer > p {
 
 @media (max-width: 600px){
     #principal{
-        width: 400px;
+        width: auto;
         margin: auto;
+        align-content: center;
     }
     main{
-        width: 400px;
+        width: auto;
     }
   
     #resultado{
         margin-top: 30px;
-        width: 320px;
+        width: 300px;
     }
 
     #teclado{
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 320px;
+        width: 300px;
     }
 
     header{
         padding: 10px;
-        width: 400px;
+      
     }
     
-    footer{
-        width: 400px;
-    }
 }
