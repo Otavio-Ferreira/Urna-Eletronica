@@ -32,7 +32,7 @@ function green(){
     var valor1 = parseInt(document.getElementById('num1').value)
     var valor2 = parseInt(document.getElementById('num2').value)
     var res = document.getElementById('resultado')
-    var tit = document.getElementById('nome')
+    var tit = document.createElement('h2')
     var candidato = (valor1 * 10) + valor2
     var img = document.createElement('img')
     img.setAttribute('id', "foto")
@@ -78,8 +78,8 @@ function green(){
         tit.style.color = 'white'
     }
     else if(candidato == 14){
-        img.setAttribute('src', 'imagens/roberto.jpg')
-        tit.innerHTML = 'ROBERTO JEFFERSON-PTB'
+        img.setAttribute('src', 'imagens/padre.jpg')
+        tit.innerHTML = 'PADRE KELMON-PTB'
         tit.style.color = 'darkblue'
     }
     else if(candidato == 21){
@@ -106,6 +106,8 @@ function green(){
         tit.innerHTML = 'SEU VOTO FOI ANULADO'
         tit.style.color = 'white'
     }
+    res.innerHTML = ""
+    res.appendChild(tit)
     res.appendChild(img)
     
 }
